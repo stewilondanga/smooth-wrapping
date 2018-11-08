@@ -103,10 +103,11 @@ div.options {
   width: 400px;
 }
 
-/*  button {
-    cursor: pointer;
-  }
-  div.options p {
+button {
+  cursor: pointer;
+}
+
+/*  div.options p {
     opacity: 0.5;
   }
 .no-bold {
