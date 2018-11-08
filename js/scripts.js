@@ -11,12 +11,12 @@ const nodes = document.querySelectorAll(".item-node"),
   totalNodes = nodes.length,
   boxes = [];
 
-/*let nodeCnt = 0,      // Node count: Loop through nodes[]
-    resizeWaitID = 0, // setTimeout ID for window.resize()
-    node = {},
-    dupe = {};
+let nodeCnt = 0, // Node count: Loop through nodes[]
+  resizeWaitID = 0, // setTimeout ID for window.resize()
+  node = {},
+  dupe = {};
 
-for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
+/*for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
   node = nodes[nodeCnt];
 
   dupe = node.cloneNode(true);        // We'll clone each node so it can "follow" its sibling `node` element around the UI.
