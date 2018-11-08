@@ -7,11 +7,11 @@ var navigate = (function() {
   });
 })();
 
-/*const nodes = document.querySelectorAll(".item-node"),
-      totalNodes = nodes.length,
-      boxes = [];
+const nodes = document.querySelectorAll(".item-node"),
+  totalNodes = nodes.length,
+  boxes = [];
 
-let nodeCnt = 0,      // Node count: Loop through nodes[]
+/*let nodeCnt = 0,      // Node count: Loop through nodes[]
     resizeWaitID = 0, // setTimeout ID for window.resize()
     node = {},
     dupe = {};
