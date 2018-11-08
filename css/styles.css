@@ -55,7 +55,7 @@ body {
   visibility: hidden;
 }
 
-/*.container > div.item-dupe {
+.container>div.item-dupe {
   position: absolute;
   visibility: visible;
 }
