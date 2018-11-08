@@ -44,9 +44,9 @@ function moveNodes() {
   }, 101);
 }
 
-/*window.addEventListener("resize", moveNodes);
+window.addEventListener("resize", moveNodes);
 
-const divSwitch = document.querySelector('.container');
+/*const divSwitch = document.querySelector('.container');
 
 document.querySelector('.button').addEventListener('click', e => {
   moveNodes();
