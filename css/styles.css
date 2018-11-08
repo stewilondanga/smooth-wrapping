@@ -96,13 +96,14 @@ h1, h2, h3 {
   width: 50%;
 }
 
-/*div.options {
+div.options {
   margin: 0 auto;
   padding: 1rem 0 0;
   text-align: center;
   width: 400px;
 }
-  button {
+
+/*  button {
     cursor: pointer;
   }
   div.options p {
