@@ -25,7 +25,7 @@ body {
   width: 95%;
 }
 
-/*.container {
+.container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -35,7 +35,8 @@ body {
   position: relative;
   transition: all 2s;
 }
-.container > div.item {
+
+/*.container > div.item {
   align-items: center;
   background-color: hsl(133, 100%, 80%);
   display: flex;
