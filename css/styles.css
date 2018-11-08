@@ -1,3 +1,7 @@
+body {
+  margin: 0 auto;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -21,9 +25,6 @@
   height: 1.5em;
 }
 
-body {
-  margin: 0 auto;
-}
 .wrapper {
   margin: 1rem auto;
   padding: 0 0 1rem;
@@ -64,6 +65,7 @@ body {
 }
 
 /*  Superfluous  */
+
 /*
 h1,
 h2,
