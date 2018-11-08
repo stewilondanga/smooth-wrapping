@@ -17,14 +17,15 @@ body {
   height: 1.5em;
 }
 
-/*.wrapper {
+.wrapper {
   margin: 1rem auto;
   padding: 0 0 1rem;
   position: relative;
   text-align: center;
   width: 95%;
 }
-.container {
+
+/*.container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
