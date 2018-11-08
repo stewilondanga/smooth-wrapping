@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,97 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+body {
+  margin: 0 auto;
+}
+.wrapper {
+  margin: 1rem auto;
+  padding: 0 0 1rem;
+  position: relative;
+  text-align: center;
+  width: 95%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0 0.5rem 1rem;
+  position: relative;
+  transition: all 2s;
+}
+.container > div.item {
+  align-items: center;
+  background-color: hsl(133, 100%, 80%);
+  display: flex;
+  flex: 0 1 auto;
+  justify-content: center;
+  outline: 3px solid green;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: relative;
+    min-height: 100px;
+    width: 150px;
+  transition: top 0.5s, left 0.5s;
+}
+.container > div.item-node {
+  visibility: hidden;
+}
+.container > div.item-dupe {
+  position: absolute;
+  visibility: visible;
+}
+
+/*  Superfluous  */
+/*
+h1,
+h2,
+h3 {
+  color: green;
+  margin: 1rem auto 0;
+  padding: 0;
+  text-align: center;
+}
+.title,
+.title-link {
+  color: green;
+  margin: 0.75rem auto 0;
+  text-align: center;
+}
+.title-link {
+  margin: 0.5rem auto 0;
+}
+.title-link a {
+  color: orange;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.title-link a:hover {
+  color: maroon;
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.container.switch {
+  transition: all 2s;
+  width: 50%;
+}
+div.options {
+  margin: 0 auto;
+  padding: 1rem 0 0;
+  text-align: center;
+  width: 400px;
+}
+  button {
+    cursor: pointer;
+  }
+  div.options p {
+    opacity: 0.5;
+  }
+.no-bold {
+  font-weight: normal;
 }
 
 .containers {
