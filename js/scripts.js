@@ -23,9 +23,9 @@ for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
   dupe.classList.remove("item-node"); // .item-node | visibility: hidden - Will move natively with Flex wrapping (snappy!).
   dupe.classList.add("item-dupe"); // .item-dupe | visibility: visible - Will smoothly follow sibling .item-node around.
 
-  /*    node.parentNode.appendChild(dupe);  // Position: `absolute` - Each clone stays relative to their shared parent container.
+  node.parentNode.appendChild(dupe); // Position: `absolute` - Each clone stays relative to their shared parent container.
 
-      dupe.style.top = node.offsetTop + 'px';   // Establish each dupe's `absolute` position.
+  /*    dupe.style.top = node.offsetTop + 'px';   // Establish each dupe's `absolute` position.
       dupe.style.left = node.offsetLeft + 'px'; // <--^
 
       boxes[nodeCnt] = { node, dupe };
