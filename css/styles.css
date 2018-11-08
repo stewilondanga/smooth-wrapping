@@ -51,10 +51,11 @@ body {
   transition: top 0.5s, left 0.5s;
 }
 
-/*.container > div.item-node {
+.container>div.item-node {
   visibility: hidden;
 }
-.container > div.item-dupe {
+
+/*.container > div.item-dupe {
   position: absolute;
   visibility: visible;
 }
