@@ -107,10 +107,11 @@ button {
   cursor: pointer;
 }
 
-/*  div.options p {
-    opacity: 0.5;
-  }
-.no-bold {
+div.options p {
+  opacity: 0.5;
+}
+
+/*.no-bold {
   font-weight: normal;
 }
 
