@@ -111,11 +111,11 @@ div.options p {
   opacity: 0.5;
 }
 
-/*.no-bold {
+.no-bold {
   font-weight: normal;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
