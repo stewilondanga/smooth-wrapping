@@ -25,10 +25,10 @@ for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
 
   node.parentNode.appendChild(dupe); // Position: `absolute` - Each clone stays relative to their shared parent container.
 
-  /*    dupe.style.top = node.offsetTop + 'px';   // Establish each dupe's `absolute` position.
-      dupe.style.left = node.offsetLeft + 'px'; // <--^
+  dupe.style.top = node.offsetTop + 'px'; // Establish each dupe's `absolute` position.
+  dupe.style.left = node.offsetLeft + 'px'; // <--^
 
-      boxes[nodeCnt] = { node, dupe };
+  /*    boxes[nodeCnt] = { node, dupe };
     }
 
     function moveNodes() {
