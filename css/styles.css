@@ -62,16 +62,14 @@ body {
 
 /*  Superfluous  */
 
-/*
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   color: green;
   margin: 1rem auto 0;
   padding: 0;
   text-align: center;
 }
-.title,
+
+/*.title,
 .title-link {
   color: green;
   margin: 0.75rem auto 0;
