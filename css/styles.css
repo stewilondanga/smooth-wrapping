@@ -69,13 +69,13 @@ h1, h2, h3 {
   text-align: center;
 }
 
-/*.title,
-.title-link {
+.title, .title-link {
   color: green;
   margin: 0.75rem auto 0;
   text-align: center;
 }
-.title-link {
+
+/*.title-link {
   margin: 0.5rem auto 0;
 }
 .title-link a {
