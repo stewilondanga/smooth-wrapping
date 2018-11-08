@@ -79,12 +79,13 @@ h1, h2, h3 {
   margin: 0.5rem auto 0;
 }
 
-/*.title-link a {
+.title-link a {
   color: orange;
   text-decoration: none;
   transition: all 0.25s;
 }
-.title-link a:hover {
+
+/*.title-link a:hover {
   color: maroon;
   text-decoration: none;
   transition: all 0.25s;
