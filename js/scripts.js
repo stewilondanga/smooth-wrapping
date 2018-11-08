@@ -48,7 +48,7 @@ window.addEventListener("resize", moveNodes);
 
 const divSwitch = document.querySelector('.container');
 
-/*document.querySelector('.button').addEventListener('click', e => {
+document.querySelector('.button').addEventListener('click', e => {
   moveNodes();
   divSwitch.classList.toggle('switch');
 });
