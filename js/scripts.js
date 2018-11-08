@@ -34,21 +34,21 @@ for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
   };
 }
 
-/*  function moveNodes() {
-    clearTimeout(resizeWaitID);
-    resizeWaitID = setTimeout(() => {
-      for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
-        boxes[nodeCnt].dupe.style.left = boxes[nodeCnt].node.offsetLeft + 'px';
-        boxes[nodeCnt].dupe.style.top = boxes[nodeCnt].node.offsetTop + 'px';
-      }
-    }, 101);
-  }
+function moveNodes() {
+  clearTimeout(resizeWaitID);
+  resizeWaitID = setTimeout(() => {
+    for (nodeCnt = 0; nodeCnt < totalNodes; nodeCnt++) {
+      boxes[nodeCnt].dupe.style.left = boxes[nodeCnt].node.offsetLeft + 'px';
+      boxes[nodeCnt].dupe.style.top = boxes[nodeCnt].node.offsetTop + 'px';
+    }
+  }, 101);
+}
 
-  window.addEventListener("resize", moveNodes);
+/*window.addEventListener("resize", moveNodes);
 
-  const divSwitch = document.querySelector('.container');
+const divSwitch = document.querySelector('.container');
 
-  document.querySelector('.button').addEventListener('click', e => {
-    moveNodes();
-    divSwitch.classList.toggle('switch');
-  });
+document.querySelector('.button').addEventListener('click', e => {
+  moveNodes();
+  divSwitch.classList.toggle('switch');
+});
